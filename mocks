@@ -1,0 +1,26 @@
+######################
+#      TITLE         #
+######################
+if title not provided, file name is considered title
+
+Heading:
+-------
+  sub Heading:
+  ------------
+
+  not sub heading but inside heading, can be description or some thing
+
+  level 1 text
+    level 2 text
+      level 3 text
+        level 4 text
+          level 5 text
+
+
+--------------
+----------------
+the above separates two topics inside same file, so below part can be considered as new topic with title etc
+
+>>> console/ terminal output
+
+?? todo
