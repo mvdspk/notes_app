@@ -1,5 +1,7 @@
 # notes_app
 Note taking, organising, display and browsing
+# DESIGN
+![Design Diagram](https://github.com/mvdspk/notes_app/blob/requirements/mocks1/D0FE4E17-65AD-4AFB-BC45-390D81E4FEED.jpeg)
 
 # REQUIREMENTS
 ---
