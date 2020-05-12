@@ -14,6 +14,8 @@ user has unique ID
 ## Note:
 Each note has a unique Id
 
+fetch unique id using uuid (example: ee7a4914-940e-11ea-bb37-0242ac130002)
+
 # Behavior
 ## Collaboration
 a note can be associated with many users
@@ -33,3 +35,5 @@ Publish a new Note/ update an existing one
 ## Editor
 display content of a note
 
+## References
+[UUID](https://www.uuidgenerator.net/version1)
