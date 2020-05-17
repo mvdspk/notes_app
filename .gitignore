@@ -1,0 +1,5 @@
+.vscode/*
+app/__pycache__/*
+app/v1/__pycache__/*
+app/v1/controller/__pycache__/*
+app/v1/service/__pycache__/*
