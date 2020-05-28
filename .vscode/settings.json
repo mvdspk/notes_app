@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.pythonPath": "/Users/sivakanta.eranki/.local/share/virtualenvs/notes_app-7kwx-A6w/bin/python"
 }

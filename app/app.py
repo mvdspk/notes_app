@@ -3,6 +3,7 @@ import os
 from flask import Flask
 from flask_restplus import Resource, Api
 from v1.controller import v1, app
+from werkzeug.utils import cached_property
 
 app.register_blueprint(v1)
 if __name__ == '__main__':
