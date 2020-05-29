@@ -7,8 +7,8 @@ verify_ssl = true
 pylint = "*"
 
 [packages]
-flask-restplus = "==0.11.0"
 Flask = "==1.0.2"
+flask-restx = "*"
 
 [requires]
 python_version = "3.8"

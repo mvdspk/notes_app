@@ -1,7 +1,7 @@
 import threading
 import time
 from flask import Flask, jsonify, Blueprint, request
-from flask_restplus import Api, Resource, fields, reqparse
+from flask_restx import Api, Resource, fields, reqparse
 from v1.service import Database 
 #TODO: need to decidewhich logger we use
 #from logger import get_logger
