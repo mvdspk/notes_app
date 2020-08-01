@@ -3,6 +3,7 @@ import time
 from flask import Flask, jsonify, Blueprint, request
 from flask_restx import Api, Resource, fields, reqparse
 from v1.service import Database 
+from flask.helpers import url_for
 #TODO: need to decidewhich logger we use
 #from logger import get_logger
 
@@ -58,3 +59,14 @@ class GetNoteById(Resource):
         except Exception:
             return {'InternalServerError': 'couldnt fetch data for the execution id provided'}, 500
 
+@app.route("/site-map")
+def site_map():
+    links = []
+    for rule in app.url_map.iter_rules():
+        # Filter out rules we can't navigate to in a browser
+        # and rules that require parameters
+        if "GET" in rule.methods:
+            url = url_for(rule.endpoint, **(rule.defaults or {}))
+            links.append((url, rule.endpoint))
+    # links is now a list of url, endpoint tuples
+    return str(links)
